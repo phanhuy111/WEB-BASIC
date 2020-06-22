@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alpis | Brand Design, App Design, UI Design, UX Design, Web Design, Web Development in Miami FL</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/trang1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- animsition.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+            
+        $(document).ready(function() {
+            $(".full").animsition({
+                        inClass: 'zoom-in',
+                        outClass: 'fade-out-up-sm',
+                        inDuration: 2000,
+                        outDuration: 8000,
+                        linkElement: '.animsition-link',
+                        loading: true,
+                        loadingParentElement: 'body', 
+                        loadingClass: 'animsition-loading',
+                        loadingInner: '', // e.g '<img src="loading.svg" />'
+                        timeout: false,
+                        timeoutCountdown: 0,
+                        onLoadEvent: true,
+                        browser: [ 'animation-duration', '-webkit-animation-duration'],
+                        overlay : false,
+                        overlayClass : 'animsition-overlay-slide',
+                        overlayParentElement : 'body',
+                        transition: function(url){ window.location.href = url; }
+            });
+        });
+        </script>
+</head>
+<body style="background-color: #fafafa">
+<div class="full">    
+    <div class="top">
+      <div class="menu">
+          <ul>
+              <li>
+                <a href="trang2.html">WORK</a>  
+                
+              </li>
+              <li>
+                <a href="">ABOUT</a>
+                  
+              </li>
+              <li>
+                  <a href="trang1.html"><img src="img/logo.svg" alt=""> </a>
+              </li> 
+           
+              <li>
+                  <a href="trang3.html">CONTACT</a>
+                  
+              </li>
+              <li>
+                  <a href="">BLOG</a>
+                  
+              </li>
+          </ul>
+      </div> 
+    </div>
+    <div class="form">
+            <div class="one">
+
+                        <div class="tong">
+                            <hr>    
+                            <p class="talk">
+                                        <img src="img/lets-talk.svg" alt="">
+                                </p>
+                            <hr>
+                        </div>
+                      
+                
+                        <form id="contact" name="contact" method="post" novalidate="novalidate">
+                       <div class="container">
+                            <div class="row justify-content-around">
+                                    <div class="col-lg-5">
+                                        <label for="name">Your Name
+                                            <input id="name" name="name" type="text" placeholder="John Smith">
+                                        </label>
+                    
+                                        <label for="company">Company Name
+                                            <input id="company" name="company" type="text" placeholder="Smith LLC">
+                                        </label>
+                    
+                                        <label for="email">Email Address
+                                            <input id="email" name="email" type="text" placeholder="john@smithllc.com">
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <label for="budget">Budget
+                                            <select id="budget" name="budget" required="" aria-required="true">
+                                                <option>- select -</option>
+                                                <option value="$0 - $5k">$0 - $5k</option>
+                                                <option value="$10k - $50k">$10k - $50k</option>
+                                                <option value="$50k - $150k">$50k - $150k</option>
+                                                <option value="$150k  - $250k">$150k  - $250k</option>
+                                                <option value="$250k+">$250k+</option>
+                                                <option value="N/A">N/A</option>
+                                            </select>
+                                        </label>
+                    
+                                        <label for="description">Project Description
+                                            <textarea id="description" name="description" placeholder="Please describe the project you need us to help you with."></textarea>
+                                        </label>
+                                    </div>
+                                </div>
+                       </div>
+
+                
+                         
+                             
+                                    <div class="submit">
+                                        <button id="submit" name="submit" type="submit" class="button info">Submit</button>
+                                    </div>
+                            
+                            
+                
+                        </form>
+                        
+                        <div id="success-msg" class="centered" style="display: none;">
+                          <span>
+                            <p>Your message was sent successfully! We will be in touch as soon as we can.</p>
+                          </span>
+                        </div>
+                         
+                        <div id="error-msg" class="centered" style="display: none;">
+                          <span>
+                            <p>Something went wrong, try refreshing and submitting the form again.</p>
+                          </span>
+                        </div>
+                
+                
+                        <div class="row1">
+                            <div class="medium-4 medium-centered columns interact">
+                                <p><img src="img/interact.svg" alt="Interact With Us"></p>
+                
+                                <p>
+                                    <a href="mailto:info@alpisdesign.com">info@alpisdesign.com</a> <br>
+                
+                                    (786) 250-8213
+                                </p>
+                            </div>
+                        </div>
+                
+                
+                
+    
+                
+                  </div>
+    </div>
+</div>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,236 @@
+<html>
+    <head>
+        <title>ZESORIUM</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="CSS/trang1.css">
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
+        <script>
+                $(document).ready(function () {
+                   $('.slide').slick({
+                    autoplay:true,
+                    vertical:true,
+                    slidesToShow: 1,
+                    infinite: true,
+                    speed: 1000,
+                    cssEase: 'linear'
+                   });
+                    var btn = $('#button');
+
+                    $(window).scroll(function() {
+                      if ($(window).scrollTop() > 300) {
+                        btn.addClass('show');
+                      } else {
+                        btn.removeClass('show');
+                      }
+                    });
+                    
+                    btn.on('click', function(e) {
+                      e.preventDefault();
+                      $('html, body').animate({scrollTop:0}, '300');
+                    });
+    
+                })
+                 
+        </script>  
+    </head>
+    <body>
+            <a id="button"></a>
+    <div class="top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navigation">
+                <div class="hamburger">
+                  <span class="bars">
+                  </span>
+                </div>
+                <div class="menu">
+                <ul>
+                  <li><a href="">About Us</a></li>
+                  <hr style="    border: 1px solid white;
+    margin: 17px 0px;
+    width: 172px;" />
+                  <li><a href="">Product</a></li>
+                  <hr style="    border: 1px solid white;
+    margin: 17px 0px;
+    width: 172px;" />
+                  <li><a href="">Patnership</a></li>
+                  <hr style="    border: 1px solid white;
+    margin: 17px 0px;
+    width: 172px;" />
+                  <li><a href="">Blog</a></li>
+                  <hr style="    border: 1px solid white;
+    margin: 17px 0px;
+    width: 172px;" />
+                  <li><a href="">Support</a></li>
+                  <hr style="    border: 1px solid white;
+    margin: 17px 0px;
+    width: 172px;" />
+                  <li><a href="">Contact</a></li>
+                  <hr style="    border: 1px solid white;
+                  margin: 17px 0px;
+                  width: 172px;" />
+                </ul>
+                </div>
+              </nav>
+        </nav>
+        <div class="slide">
+                <div style="width: 100%;"><a href="#"><img src="img/product-self-banner.jpg" alt=""></a></div>
+                <div style="width: 100%"><a href="#"><img src="img/self-banner3.jpg" alt=""></a></div>    
+        </div>
+        <div class="hinhan">
+            <img class="hinhan1" src="img/banner-left-bar-red.png" alt="">
+        </div>
+          
+    </div>  
+    <div class="duoi1">
+        <div class="chu"> <h2>We’re Zensorium, and we create experiences beyond your five senses.</h2></div>
+       <div class="container">
+            <div class="row">
+          <div class="hinhtrai col-lg-6">
+              <a href="#"><img src="img/product-self.png" alt=""></a>
+          </div>  
+          <div class="hinhphai col-lg-4">
+            <a href="#"><img src="img/product-tinke.png" alt=""></a>
+        </div>  
+       </div>
+    </div>
+    </div>
+    <div class="duoi2">
+       <div class="container">
+            <div class="row">
+          <div class="hinhtrai col-lg-5">
+              <img src="img/home-Journey.jpg" alt="" style="width: 450px;
+              height: 500px;">
+              <div class="khoixanh1">
+                    <h2 class="">Our Journey</h2>
+                      <p>We are passionate about empowering people to improve their quality of life through our products. Learn about our story.</p>
+                      <br>
+                      <a href="#" title=""><button type="button" class="btn-white-brd btn-base-sm">Discover more</button></a>
+                </div>
+          </div>  
+          <div class="hinhphai col-lg-6">
+              <div class="khuc1">
+                <div class="bentrai1">
+                    <h3 class="news-v4-title">Corporate Applications</h3>
+                    <p>• Wellness Programs
+                      <br>
+                      • Executive Coaching/Development
+                      <br>
+                  • Life/Health Insurance</p><br>
+                    <a href="#" title=""><button type="button" class="btn-white-brd btn-base-sm">Read more</button></a>
+                </div>
+                <img src="img/home-corporate-applications.jpg" alt="">
+              </div>
+              <div class="khuc2">
+                <img src="img/home-partner-us.jpg" alt="">
+                <div class="benphai1">
+                    <h2 class="news-v4-title">Partner With Us</h2>
+                    <p>We have medical, corporate and academic partners using our
+devices in innovative ways. Let’s talk about opportunities. </p><br>
+                    <a href="#" title=""><button type="button" class="btn-white-brd btn-base-sm">Let’s work</button></a>
+                </div>
+                
+              </div>
+              <div class="khuc3">
+                  <img src="img/home-partner-us2.jpg" alt="">
+              </div>
+        </div>  
+       </div>
+    </div>
+</div>
+<div class="duoi3">
+    <div class="col-sm-6 sm-margin-b-50">
+    
+      <div class="heading-v1 margin-b-10">
+            <h2 class="heading-v1-title">About Zensorium</h2>
+      </div>
+
+      <p>Backed by a 100-year-old Japanese multinational corporation, Nitto Denko Corp., Zensorium was born out of a passion for improving lives and our belief that by sensing meaningful         biomarkers and pairing them with digital technology, we can advance people’s understanding of their own Sense of Self and thus help them achieve a better quality of life. <br>
+          <br>
+      Our goal is to share what we have learned with the world through products that change thinking and inspire              self-improvement.</p>
+    </div>
+    <div class="hinh col-sm-5">
+       <img src="img/home-about.jpg" alt="">
+    </div>
+</div>
+
+<footer id="footer" class="footer">
+        <div class="container">
+
+            <div class="row margin-b-50">
+              <div class="col-md-8 col-sm-6 col-xs-6 xs-full-width">
+                <div class="col-md-4 col-sm-6 col-xs-6 xs-full-width">
+                  <!-- News List -->
+                  <ul class="list-unstyled footer-news-list">
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="index.html">HOME</a> </li>
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="about.html">ABOUT</a> </li>
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="#">RESEARCH</a> </li>
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="partnership.html">PARTNERSHIP</a> </li>
+                  </ul>
+                  <!-- End News List -->
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 xs-full-width">
+                  <!-- News List -->
+                  <ul class="list-unstyled footer-news-list">
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="press.html">PRESS</a> </li>
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="http://blog.zensorium.com">BLOG</a> </li>
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="privacy-policy.html">PRIVACY POLICY</a> </li>
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="product-self.html">PRODUCT</a> </li>
+                  </ul>
+                  <!-- End News List -->
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 xs-full-width md-margin-b-50">
+                  <!-- News List -->
+                  <ul class="list-unstyled footer-news-list">
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="#">DASHBOARD </a> </li>
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="https://zensorium.zendesk.com">SUPPORT</a> </li>
+                    <li class="footer-news-list-item"> <a class="footer-news-list-link" href="contact.html">CONTACT</a> </li>
+                  </ul>
+                  <!-- End News List -->
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-6 xs-full-width md-margin-b-50">
+                <p><img class="footer-v8-logo-img" src="img/logo.png" alt=""></p>
+                    <p class="margin-b-30">Our vision is to elevate quality of life through
+innovative sensing solutions. We support this
+vision by embracing the simplicity of sensing.</p>
+                    <!-- Theme Icons White Background -->
+                    <ul class="list-inline ul-li-lr-0">
+                        <li class="theme-icons-wrap"><a href="#"><i class="theme-icons theme-icons-dark-bg theme-icons-sm fa fa-facebook"></i></a></li>
+                        <li class="theme-icons-wrap"><a href="#"><i class="theme-icons theme-icons-dark-bg theme-icons-sm fa fa-twitter"></i></a></li>
+                        <li class="theme-icons-wrap"><a href="#"><i class="theme-icons theme-icons-dark-bg theme-icons-sm fa fa-google-plus"></i></a></li>
+                        <li class="theme-icons-wrap"><a href="#"><i class="theme-icons theme-icons-dark-bg theme-icons-sm fa fa-instagram"></i></a></li>
+                        <li class="theme-icons-wrap"><a href="#"><i class="theme-icons theme-icons-dark-bg theme-icons-sm fa fa-linkedin"></i></a></li>
+                        <li class="theme-icons-wrap"><a href="#"><i class="theme-icons theme-icons-dark-bg theme-icons-sm fa fa-pinterest-p"></i></a></li>
+                        <li class="theme-icons-wrap"><a href="#"><i class="theme-icons theme-icons-dark-bg theme-icons-sm fa fa-youtube"></i></a></li>
+                    </ul>
+                    <!-- End Theme Icons White Background -->
+
+              </div>
+
+
+            </div>
+            <!--// end row -->
+
+
+
+
+        </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="JS/trang1.js"></script>  
+
+</body>
+</html>

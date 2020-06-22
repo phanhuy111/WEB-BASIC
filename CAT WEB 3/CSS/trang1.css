@@ -1,0 +1,753 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.slidenho1 .noidungbentrong {
+    height: 700px;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-image: url('https://livewp.site/wp/md/surfy/wp-content/uploads/sites/43/2018/05/revolution_home_02_01.jpg');
+}
+
+.slidenho2 .noidungbentrong {
+    height: 700px;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-image: url('https://livewp.site/wp/md/surfy/wp-content/uploads/sites/43/2018/05/revolution_home_02_02.jpg');
+}
+
+.slidenho3 .noidungbentrong {
+    height: 700px;
+background-image: url('https://livewp.site/wp/md/surfy/wp-content/uploads/sites/43/2018/05/revolution_home_02_03.jpg');
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+button.slick-prev.slick-arrow {position:  absolute;z-index: 999;border: 1px solid transparent;color: white;background-color: black;top: 45%;padding: 7px 20px;}
+
+button.slick-next.slick-arrow {
+position: absolute;
+z-index: 99999;
+border: 1px solid transparent;
+color: white;
+background-color: black;
+top: 45%;
+right:  0;
+padding: 7px 20px;
+}
+
+
+.tong {
+padding-top: 155px;
+text-align:  center;
+}
+
+
+.tong h1{
+color: white;
+font-family: 'Kaushan Script', cursive;
+font-size: 120px;
+}
+
+
+.duoi button{
+border: 1px solid transparent;
+background-color: white;
+padding: 15px 55px;
+border-radius: 3px;
+}
+
+.duoi button:hover {
+background-color: #3f3438;
+color: white;
+transition: 0.4s;
+}
+
+
+.duoi {
+margin-top: 80px;
+}
+
+.tren img {
+position:  absolute;
+margin-left: 620px;
+}
+
+.giua {
+margin-top: 40px;
+}
+
+.tren p {
+color: white;
+font-weight:  700;
+}
+
+.topnho {
+    position:  absolute;
+    z-index:  1000;
+}
+
+.topnho1{
+    position:  fixed;
+    z-index:  1000;
+    background-color: white;
+    width:  100%;
+    height: 95px;
+}
+
+.topnho ul {
+    display:  -webkit-box;
+}
+
+.topnho1 ul {
+    display:  -webkit-box;
+}
+
+.topnho li {
+    list-style:  none;
+    padding: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.topnho1 li {
+    list-style:  none;
+    padding: 25px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.topnho img {
+    width: 228px;
+    margin-top:  23px;
+    margin-left:  35px;
+}
+
+.topnho1 img {
+    width: 154px;
+    margin-top: 12px;
+    margin-left: 118px;
+}
+
+.trangchon {
+    display: -webkit-box;
+    margin-left: 333px;
+    margin-top: 15px;
+}
+
+.trangchon1 {
+    display: -webkit-box;
+    margin-left: 333px;
+    margin-top: 15px;
+    /* color:  black; */
+}
+
+.xuongduoi{
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('https://livewp.site/wp/md/surfy/wp-content/uploads/sites/43/2018/05/bg_home_02_01-1.jpg?id=3837');
+}
+
+.tongthe {
+    margin-left:  821px;
+    padding-top: 165px;
+}
+
+
+.chuto1 h1{
+    font-family: 'Kaushan Script', cursive;
+    padding: 1px 90px;
+    font-size: 54px;
+}
+
+hr{
+    text-align: center;
+    width: 77px;
+    margin: 20px 186px;
+    background-color: black;
+}
+
+
+.tongthe p {
+    font-family:  sans-serif;
+}
+
+.tongthe a {
+    color:  black;
+    padding: 0px 140px;
+}
+
+.tongthe a:hover{
+    text-decoration: none;
+    color: #3f3438
+}
+
+i.fas.fa-long-arrow-alt-right {
+    padding: 0px 10px;
+}
+
+.xuongduoi1{
+    background-color: #28323e;
+    padding-bottom: 55px;
+}
+
+.noidung h1 {
+    color: white;
+    padding:  1px 101px;
+    font-size: 27px;
+}
+
+.noidung {
+    padding-top: 62px;
+    padding-bottom: 25px;
+}
+
+.chu {
+    margin-left:  103px;
+    margin-top: 15px;
+}
+
+.chu p {
+    color: white;
+    font-family:  sans-serif;
+}
+
+.col-lg-7 a {
+    font-family: sans-serif;
+    padding-left: 672px;
+    padding-top: 5px;
+    color: white
+}
+
+.col-lg-7 a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.col-lg-6 {
+    padding: 5px 263px;
+}
+
+
+.row img {
+    width: 325px;
+    height: 240px;
+}
+
+.row .anh img:hover{
+    background-color: white;
+    opacity: 0.5;
+    transition: 0.3s
+}
+
+.row .col-lg-3 {
+    padding-left: 120px;
+}
+
+.row {
+    padding-top: 12px;
+}
+
+.row .chu1 h1{
+    color: white;
+    font-size: 25px;
+    padding-top: 26px;
+    font-family: sans-serif;
+}
+
+.tong3 {margin: 1px -50px;}
+
+.chunho1 p {
+    color: white;
+    font-size:  15px;
+    font-family:  sans-serif;
+}
+
+.chunho1 {
+    padding-top: 1px;
+}
+
+.row.cailol {
+    margin-left: 34px;
+}
+
+.col-lg-3.cailol2 {
+    margin-left: 90px;
+}
+
+.col-lg-3.cailol1 {
+    margin-left: 90px;
+}
+
+.learn a {
+    color: white;
+}
+
+.learn a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.learn {
+    margin-left: 80px;
+}
+
+.xuongduoi2{
+    height: 550px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('https://livewp.site/wp/md/surfy/wp-content/uploads/sites/43/2018/05/bg_home_02_02.jpg?id=3701');
+
+}
+
+.chu4 h1{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
+}
+
+.tongthe1 {
+    padding: 100px 255px;
+}
+
+.nut1 button {
+    border: 1px solid transparent;
+    padding:  14px 59px;
+    border-radius:  3px;
+    margin-left:  269px;
+    margin-top: 10px;
+}
+
+p.metqua {
+    font-size:  50px;
+    color: white;
+}
+
+.xuongduoi2 .row {
+    margin-left: 220px;
+}
+
+span#lines {
+    margin-left: 46px;
+
+}
+
+span#lines1 {
+    margin-left: 60px;
+    color: blue
+}
+span#lines2 {
+    margin-left: 35px;
+    color: red
+}
+
+.xuongduoi3 .row {
+    margin-left: -1px;
+}
+
+/*content*/
+
+.content {
+    margin-top:  35px;
+    margin-bottom:  60px;
+}
+
+.chutren {
+    text-align:  center;
+}
+
+.chutren h1 {
+    font-size:  27px;
+    font-family:  sans-serif;
+    font-weight:  700;
+}
+
+.chuduoi {
+    text-align:  center;
+    margin-left:  185px;
+    margin-right: 192px;
+}
+
+.chuduoi p {
+    color: #dea1a1;
+}
+
+
+/* flip card */
+
+.flip-container {
+	perspective: 1200px;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 417px;
+	height: 480px;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+
+.front h1 {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 75px;
+    padding: 160px 63px;
+}
+
+
+.front.canh1{
+    width: 415px;
+    height: 420px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('./../img/img_home_02_03.jpg');
+    
+}
+
+.front.canh2{
+    width: 415px;
+    height: 420px;
+    background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+    background-image: url('./../img/img_home_02_04.jpg');
+}
+
+.front.canh3{
+    width: 415px;
+    height: 420px;
+    background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+    background-image: url('./../img/img_home_02_08.jpg');
+}
+
+.front.canh4{
+    width: 415px;
+    height: 420px;
+    background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+    background-image: url('https://livewp.site/wp/md/surfy/wp-content/uploads/sites/43/2018/05/img_home_02_06.jpg');
+}
+.front.canh5{
+    width: 415px;
+    height: 420px;
+    background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+    background-image: url('https://livewp.site/wp/md/surfy/wp-content/uploads/sites/43/2018/05/img_home_02_444.jpg');
+}
+.front.canh6{
+    width: 415px;
+    height: 420px;
+    background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+    background-image: url('https://livewp.site/wp/md/surfy/wp-content/uploads/sites/43/2018/05/img_home_02_0222.jpg');
+}
+
+
+.back {
+    width: 415px;
+    height: 420px;
+    background-color: #28323e;
+	transform: rotateY(180deg);
+}
+
+.back img{
+    width: 144px;
+    height: 145px;
+    margin-bottom: 34px;
+    margin-top: 28px;
+    margin-left: 122px;
+}
+
+.chuduoi1 p {
+    color: white;
+    margin-left:  33px;
+    font-size: 16px;
+    font-family:  sans-serif;
+    font-weight:  500;
+}
+
+.nut3{
+    text-align: center
+}
+
+.nut3 button{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    background-color: rgb(235, 94, 110);
+    padding: 20px 32px;
+    border-radius: 5px;
+    color: white;
+}
+
+.nut3 button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.4s;
+}
+
+.xuongduoi4 {
+    background-color: #28323e;
+    margin-top: 45px;
+}
+
+.content1 {
+    margin-left: 100px;
+    color: white;
+}
+
+ul.item_list {
+    display:  -webkit-box;
+}
+
+.items3 {
+    margin-left:  61px;
+    margin-top: 40px;
+}
+
+
+li.item-team-member.wind-system {
+    list-style:  none;
+}
+li.item-team-member.water-system {
+    list-style:  none;
+}
+
+
+.member-icons {position:  absolute;margin-top: -384px;margin-left: 354px;}
+
+.team-icons {
+    display:  grid;
+}
+
+.member-icons a {
+    padding: 1px;
+    color: white;
+}
+
+.team-infobox {
+    position:  absolute;
+    margin-top:  -99px;
+    margin-left: 111px;
+}
+
+.team-infobox a{
+        color: white;
+        font-family:  sans-serif;
+        font-size:  25px;
+    }
+
+    .team-infobox a:hover{
+        text-decoration: none;
+        color: white
+    }
+
+span.team-positions {
+    color: white;
+    font-family:  sans-serif;
+    margin-left:  46px;
+}
+
+.xuongduoi5{
+    height: 740px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('https://livewp.site/wp/md/surfy/wp-content/uploads/sites/43/2018/07/bg_home_02_223.jpg?id=4048')
+}
+
+.xuongduoi5 .row {
+    padding: 65px 95px;
+}
+
+.xuongduoi5 h1 {
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 600;}
+
+
+.xuongduoi5 .col-lg-7 a {
+    font-family: sans-serif;
+    padding-left: 565px;
+    padding-top: 5px;
+    color: black;
+
+
+}
+
+.noidungchinh .khungdien{
+    padding: 65px 13px;
+}
+
+.container.noidungchinh {
+    margin-top: -45px;
+    margin-bottom: 57px;
+}
+
+.duoi6 h1{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    padding:  2px;
+}
+
+.logo1 ul {
+    display:  -webkit-box;
+}
+
+.logo1 li {
+    list-style:  none;
+    padding: 0px 42px;
+}
+
+.logo1 {
+    margin-top:  -10px;
+}
+
+.noidung6 {
+    background-color: #fafafc;
+    width: 325px;
+    height: 122px;
+    padding: 11px 25px;
+}
+
+.tunhieu {
+    background-color: #fafafc;
+    width:  325px;
+    height:  240px;
+    font-family:  sans-serif;
+    line-height: 26px;
+    padding: 0px 23px;
+}
+
+.duoi6 {
+    padding:  2px 0px;
+}
+
+.xuongduoi6{
+    height: 455px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('./../img/home_01_map_bg.jpg')
+}
+
+.tren9 {
+    padding: 56px 0px;
+    text-align:  center;
+    color: white;
+}
+
+.chu3 h1 {
+    font-family:  sans-serif;
+}
+
+.chu3 p {
+    font-family:  sans-serif;
+    font-size:  14px;
+}
+
+.nut5 {
+    padding-top:  10px;
+}
+
+.nut5 button {
+    border: 1px solid transparent;
+    border-radius:  3.5px;
+    padding:  13px 45px;
+    background-color: #ca3535;
+    color: white;
+}
+
+.duoi9 ul {
+    display:  -webkit-box;
+    padding: 20px 535px;
+}
+
+.duoi9 li {
+    padding:  30px;
+    list-style:  none;
+    color: white;
+}
+
+.xuongduoi10 {
+    background-color: #212d3d;
+    padding: 55px 0px;
+}
+
+
+.input {
+    text-align:  center;
+}
+
+input[type="text"] {
+    border:  1px solid transparent;
+    padding:  10px 58px;
+    margin-right:  -4px;
+    background-color: #2d3949;
+    border-radius: 4.5px;
+}
+
+.input button {
+    border: 1px solid transparent;
+    padding:  10px 10px;
+    background-color: #e04949;
+    border-radius: 3.5px;
+
+}
+
+.home {
+    text-align:  center;
+}
+
+.home ul {
+    display: -webkit-box;
+    padding: 25px 458px;
+}
+
+.home li {
+    list-style:  none;
+    padding: 26px 28px;
+    color: white;
+}
+
+.logo2 img {
+    padding: 18px 560px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,191 @@
+
+
+body {
+    background-color: #fafafa;
+}
+
+.top {
+    margin-top: -16px;
+}
+
+.menu ul{
+    display: -webkit-box;
+    list-style:  none;
+    padding: 0px 230px;
+   }   
+
+.menu li {
+    padding:  56px;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color: black
+}
+
+.menu a {
+    text-decoration:  none;
+    font-size: 14px;
+    background: -20 0;
+    text-transform: uppercase;
+    color: #474747;
+    font-family: museo_sans500;
+}
+
+.menu img {
+    width: 138px;
+}
+
+.menu img:hover{
+    margin-top: -6px;
+    transition: 0.2s ease-in;
+}
+
+.hide-for-medium-up.believe {
+    text-align:  center;
+    margin-top:  35px;
+}
+
+.welcome {
+    position: absolute;
+    bottom: 36px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+.chudau p{
+    text-align: center;
+    font-size: 48px;
+    color: #474747;
+    line-height: 58px;
+    margin-bottom: 165px;
+    font-family: initial;
+}
+
+
+.chudau img{
+    margin: 0px 430px;
+}
+
+.sanpham img {
+    width: 313px;
+    height: 235px;
+}
+
+.sanpham.container {
+    margin: 80px 80px;
+}
+
+.sanpham .mask{
+    width: 104%;
+    height: 93%;
+    position: absolute;
+    overflow: hidden;
+    top: 9px;
+    left: 24px;
+    background-color: rgba(0,0,0,.78);
+}
+
+.mask .content{
+    bottom: 25px;
+    position: absolute;
+    padding: 90px 30px;
+}
+
+.mask h2{
+    transform: translateY(50px);
+    color: #FFF;
+    position: relative;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.mask h2 span{
+    display: block;
+    font-family: museo_sans100,"Museo Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 18px;
+    color: #E04B68;
+    margin-bottom: 10px;
+}
+
+.mask p{
+    font-weight: 100;
+    font-size: 14px;
+    color: #FFF;
+    line-height: 17px;
+    transform: translateY(50px);
+    margin-bottom: 0;
+    padding-right: 30px;
+}
+
+.sanpham .col-lg-3 {
+    margin: 6px;
+}
+
+.mask{
+    opacity:0
+}
+
+
+.mask:hover{
+  opacity:1;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.tong {
+    margin: 15px 630px;
+}
+
+#contact .row {
+    width:  700px;
+    height:  300px;
+}
+
+#contact .row.justify-content-around {
+    margin-left: 207px;
+}
+
+#contact .row label {
+    display:  grid;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #6D6D6D;
+    letter-spacing: 1px;
+    line-height: 14px;
+    text-align: center
+}
+
+input, select, textarea {
+    margin-top: 5px;
+    box-shadow: none;
+    border: 1px solid #D7D7D7;
+    border-radius: 4px;
+    height: 36px;
+    background: #FAFAFA;
+    margin-bottom: 10px;
+    transition: all .5s ease;
+}
+
+.submit{
+    margin-left: 36em;
+    margin-top: -6em;
+ }
+    
+    
+button{
+        background-color: #E04B68;
+        color: #FFF;
+        letter-spacing: 2.94px;
+        width: 200px;
+        height: 36px;
+        border: 1px solid;
+    }
+
+
+.row1 {
+        text-align:  center;
+        margin: 70px 36em;
+    }

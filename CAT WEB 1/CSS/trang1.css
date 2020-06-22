@@ -1,0 +1,363 @@
+@import url(https://fonts.googleapis.com/css?family=Averia+Sans+Libre:700|Merriweather);
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: SlateGrey;
+}
+
+h1 {
+  font-family: 'Averia Sans Libre', cursive;
+  font-size: 64px;
+}
+
+header {
+  padding: 100px 0;
+  position: relative;
+  background: CadetBlue;
+  color: Bisque;
+}
+
+.hamburger {
+   background: url('../img/nav-bg.png');
+   background-repeat:  no-repeat;
+   position: fixed;
+   top: 0px;
+   right: 0;
+   cursor: pointer;
+   z-index: 1000;
+   padding: 62px 46px 35px;
+}
+.hamburger span {
+  vertical-align: middle;
+}
+.hamburger .bars {
+  display: block;
+  position: relative;
+  width: 22px;
+  height: 2px;
+  background-color: white;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  margin: -5px 5px;
+}
+.hamburger .bars:before, .hamburger .bars:after {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  /* padding: 0px 0px; */
+  margin: 0px 10px;
+}
+.hamburger .bars:before {
+  top: 6px;
+}
+.hamburger .bars:after {
+  bottom: 6px;
+}
+
+.open .hamburger .bars {
+  background-color: transparent;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.open .hamburger .bars::before {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.open .hamburger .bars::after {
+  bottom: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.menu {
+  width: 250px;
+  height: 100%;
+  padding: 75px 20px 0;
+  background-color: dodgerblue;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  position: fixed;
+  right: -100%;
+  top: 0;
+  opacity: 0;
+  z-index: 999;
+  margin-top: 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.menu li {
+    text-decoration:  none;
+}
+
+nav.navigation.open {
+    z-index:  9999;
+}
+
+.menu ul{
+	list-style: none;
+	margin: 80px -26px;
+}
+
+.menu a {
+  color: WhiteSmoke;
+}
+.menu a:hover {
+  color: white;
+}
+
+.open .menu {
+  right: 0;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.menu:hover {
+  overflow-y: auto;
+}
+
+button.slick-prev.slick-arrow {
+    position:  absolute;
+    z-index:  999;
+    margin: 250px 10px;
+}
+
+button.slick-next.slick-arrow {
+    float:  right;
+    z-index:  999;
+    position: absolute;
+    top: 0;
+    margin: 250px 1218px;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 597px;
+}
+
+
+.navbar-brand img {
+  width: 193px;
+  height:  25px;
+  margin: 24px 63px;
+}
+
+.chu h2 {
+  font-size: 25px;
+  line-height: 1.4;
+  margin: 50px 0px 50px;
+  text-align:  center;
+  font-weight: 300;
+  font-family: 'Gotham-Book', sans-serif;
+  color: #56565a;
+}
+
+
+.khoixanh1{
+    width: 450px;
+    height: 360px;
+    background-color: #33b9e5;
+    padding: 65px 90px;
+    color: white
+}
+
+.khuc2, .khuc1{
+ display: -webkit-box;
+}
+
+.khuc2{
+  margin-top: 15px;
+}
+
+.khuc3{
+  margin-top: 15px;
+}
+
+button{
+  padding: 9px 42px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+button:hover{
+  background-color: white;
+  transition-duration: 200ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  color: black;
+}
+
+.khuc3 img{
+  width: 661px;
+  height: 171px;
+}
+
+.bentrai1{
+  width: 325px;
+  text-align: center;
+  height: 335px;
+  padding: 35px 20px;
+  background-color: #33b9e5;
+  color:white
+}
+
+.khuc1 img{
+  width: 335px;
+}
+
+
+.khuc2 img{
+  width: 325px;
+}
+
+.duoi2 h2{
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Gotham-Book', sans-serif;
+  line-height: 1.4;
+}
+.duoi2 h3{
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Gotham-Book', sans-serif;
+  line-height: 1.4;
+}
+
+.benphai1{
+  background-color: #33b9e5;
+  width: 335px;
+  text-align: center;
+  padding: 40px 40px;
+  color:white
+}
+
+
+.duoi3{
+  display: -webkit-box;
+  margin-top: 45px;
+}
+
+.heading-v1 .heading-v1-title {
+  font-size: 25px;
+  font-family: 'Gotham-Book', serif;
+  color: #00a7df;
+}
+
+
+.col-sm-6.sm-margin-b-50{
+  width: 586px;
+  margin-left: 104px;
+  height: 280px;
+  margin-top: 65px;
+}
+
+.hinh img {
+  width:  505px;
+  height: 325px;
+}
+
+footer{
+  background: #1e1e1e;
+  padding: 50px 0 0;
+  margin-top: 80px;
+}
+
+.col-md-8.col-sm-6.col-xs-6.xs-full-width {
+  display: -webkit-box;
+}
+
+a.footer-news-list-link {
+  font-size: 15px;
+  color: #606060;
+  text-decoration:  none;
+}
+
+a.footer-news-list-link:hover{
+  color:white;
+  text-decoration:none;
+}
+
+li.footer-news-list-item {
+  line-height: 30px;
+}
+
+p.margin-b-30 {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Gotham-Light', sans-serif;
+  color: #606060;
+  line-height: 1.4;
+}
+
+.hinhan {
+  position:  absolute;
+  z-index: 999;
+  margin-top: -81px;
+}
+
+.hinhan img{
+  width: 1347.39px;
+  height: 81.6452px;
+}
+
+
+/* button come back to top*/
+
+
+#button {
+  display: inline-block;
+  background-color: rgb(65, 55, 40);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}

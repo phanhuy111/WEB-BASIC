@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alpis | Brand Design, App Design, UI Design, UX Design, Web Design, Web Development in Miami FL</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/trang1.css">
+    <link rel="stylesheet" href="CSS/NewBaskervilleStd-BoldIt.otf">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- animsition.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+    
+    <script>
+    $(document).ready(function() {
+        $(".full").animsition({
+                    inClass: 'fade-in-up-sm',
+                    outClass: 'fade-out-up-sm',
+                    inDuration: 1500,
+                    outDuration: 800,
+                    linkElement: '.animsition-link',
+                    loading: true,
+                    loadingParentElement: 'body', 
+                    loadingClass: 'animsition-loading',
+                    loadingInner: '', // e.g '<img src="loading.svg" />'
+                    timeout: false,
+                    timeoutCountdown: 5000,
+                    onLoadEvent: true,
+                    browser: [ 'animation-duration', '-webkit-animation-duration'],
+                    overlay : false,
+                    overlayClass : 'animsition-overlay-slide',
+                    overlayParentElement : 'body',
+                    transition: function(url){ window.location.href = url; }
+        });
+    });
+    </script>
+</head>
+<body>
+<div class="full">    
+    <div class="top">
+      <div class="menu">
+          <ul>
+              <li>
+                <a href="trang2.html">WORK</a>  
+                
+              </li>
+              <li>
+                <a href="">ABOUT</a>
+                  
+              </li>
+              <li>
+                  <a href="trang1.html"><img src="img/logo.svg" alt=""> </a>
+              </li> 
+           
+              <li>
+                  <a href="trang3.html">CONTACT</a>
+                  
+              </li>
+              <li>
+                  <a href="">BLOG</a>
+                  
+              </li>
+          </ul>
+      </div> 
+    </div>
+
+    <div class="section intro" >
+    
+              <div id="sprite-intro" class="hide-for-small-only sprite-animate"></div>
+        
+              <div class="hide-for-medium-up believe">
+                  <img src="img/we-believe-design-engineer.png" alt="We believe in design and engineering">
+              </div>
+     
+    </div>
+</div>
+    <div class="welcome" >
+        <a href="trang2.html" class="animsition-link"><img src="img/arrow.svg" alt=""></a>
+
+    </div>
+
+
+    
+</body>
+</html>
